@@ -3,7 +3,7 @@ import {Forecastday} from "./modal";
 
 type Props={
   forecastWeatherData:Forecastday[],
-  closeModal:any,
+  closeModal:()=>void,
   id:number,
 }
 
